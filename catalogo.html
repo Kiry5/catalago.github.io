@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha Página</title>
+    <style>
+        /* Estilos CSS para tornar a página responsiva */
+        body {
+            font-family: Constantia, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background-color: #303030;
+            border: 2px solid #faa2b4; /* Adiciona a borda branca */
+        }
+        @media only screen and (max-width: 600px) {
+            /* Estilos adicionais para dispositivos móveis com largura de tela até 600px */
+            .header {
+                padding: 5px;
+            }
+            .header img {
+                max-height: 30px;
+            }
+            .header .links a {
+                margin-left: 5px;
+                font-size: 12px;
+            }
+            .hero-image {
+                height: 200px;
+                background-size: cover;
+            }
+            .hero-image h1 {
+                font-size: 24px;
+            }
+            .content {
+                padding: 10px;
+            }
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 0 0 calc(33.33% - 10px);
+            padding: 5px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+        .back-button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #faa2b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button class="back-button" onclick="history.back()"><a href="https://kiry5.github.io/Utopia.github.io/" class="column2">Voltar</a></button>
+    <h1 style="color: white; text-align: center;">Sem ideias?</h1>
+    <h2 style="color: white; text-align: center;">Veja as diversas possibilidade de pedidos que nosso profissionais são capazes de criar!</h2>
+    <div class="row">
+        <div class="column">
+            <img src="imagem11.jpg" alt="Imagem 1">
+        </div>
+        <div class="column">
+            <img src="imagem12.jpg" alt="Imagem 2">
+        </div>
+        <div class="column">
+            <img class="" src="imagem13.jpg" alt="Imagem 3">
+        </div>
+        <!-- Repita o bloco de código abaixo para adicionar mais imagens -->
+        <div class="column">
+            <img src="imagem14.jpg" alt="Imagem 4">
+        </div>
+        <div class="column">
+            <img src="imagem15.jpg" alt="Imagem 5">
+        </div>
+        <div class="column">
+            <img src="imagem17.jpg" alt="Imagem 6">
+        </div>
+        <div class="column">
+            <img src="imagem18.jpg" alt="Imagem 4">
+        </div>
+        <div class="column">
+            <img src="imagem19.jpg" alt="Imagem 5">
+        </div>
+        <div class="column">
+            <img src="imagem20.jpg" alt="Imagem 6">
+        </div>
+        <div class="column">
+            <img src="imagem21.jpg" alt="Imagem 6">
+        </div>
+        <!-- Repita o bloco de código acima para adicionar mais imagens -->
+    </div>
+</body>
+</html>
